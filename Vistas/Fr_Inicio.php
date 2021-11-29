@@ -30,7 +30,7 @@
          <!--Formulario de Login y registro-->
          <div class="contenedor__login-register">
              <!--Login-->
-             <form action="../controlador/validarUsuario.php" class="formulario__login" method="POST" id="Form">
+             <form action="../controlador/validarUsuario.php" class="formulario__login" method="POST">
                  <h2>Iniciar Sesión</h2>
                  <input type="text" name="usuario" placeholder="Nombre de Usuario">
                  <input type="password" name="contra" placeholder="Contraseña">
@@ -104,8 +104,12 @@
 
  </main>
 
+<script src="../Fn_js/lolito.js"></script>
 <script src="../Fn_js/formularios.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
 
     
 </body>
